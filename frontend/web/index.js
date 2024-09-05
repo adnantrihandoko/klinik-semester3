@@ -19,3 +19,4 @@ req.onload = function () {
 
 req.send();
 console.log("tes");
+console.log("tes");
