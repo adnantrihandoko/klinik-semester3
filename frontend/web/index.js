@@ -10,7 +10,7 @@ req.onload = function () {
                 console.log(id.id, id.name)
             });
         } catch (error) {
-            console.error("Gagal lagi:", error);
+            console.error("Gagal Server:", error);
         }
     } else {
         console.error('Request failed with status:', req.status);
