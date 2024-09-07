@@ -10,7 +10,7 @@ req.onload = function () {
                 console.log(id.id, id.name)
             });
         } catch (error) {
-            console.error("Failed to parse JSON response:", error);
+            console.error("Gagal:", error);
         }
     } else {
         console.error('Request failed with status:', req.status);
